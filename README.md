@@ -48,6 +48,9 @@ Responsive-Navbar/
 2. Open the project folder.
 3. Run the `index.html` file in any modern web browser.
 
+'''bash
+https://github.com/SoumiBandyopadhyay/synent---task-number-4----Responsive-Navigation-Bar----Soumi-Bandyopadhyay-
+
 ## 📱 Responsive Design
 
 The website automatically adjusts to different screen sizes:
