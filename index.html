@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Effects -->
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+
+    <!-- Popup Message -->
+    <div id="message" class="message-box"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Soumi.dev</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#" onclick="showMessage('🏠 Welcome to Home Page')">Home</a></li>
+            <li><a href="#" onclick="showMessage('👩 About Soumi Bandyopadhyay')">About</a></li>
+            <li><a href="#" onclick="showMessage('💼 Services Section')">Services</a></li>
+            <li><a href="#" onclick="showMessage('📂 My Projects')">Projects</a></li>
+            <li><a href="#" onclick="showMessage('📞 Contact Information')">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Responsive Navigation Bar</h1>
+
+        <p>
+            Designed & Developed by
+            <strong>Soumi Bandyopadhyay</strong>
+        </p>
+
+        <button class="start-btn"
+            onclick="showMessage('🚀 Thank you for visiting my Responsive Navigation Project!')">
+            Get Started
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
